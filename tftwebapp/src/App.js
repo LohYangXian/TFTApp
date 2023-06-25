@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/Global.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SearchPage from './SearchPage'; // Import the SearchPage component
 import ProfilePage from './ProfilePage'; // Import the ProfilePage component

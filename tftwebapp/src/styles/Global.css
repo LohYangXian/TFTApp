@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700');
+
+:root {
+    --black-pearl: #142433;
+    --midnight-blue: #003366;
+    --white: #ffff;
+    
+    --font-size-h1: 32px;
+    --font-size-h2: 24px;
+    --font-size-h3: 16px;
+    --font-size-body: 12px;
+
+    --font-family-inter: 'Inter';
+}
+
+/* Classes */
+
+/* Font Family Inter */
+ 
+.inter-bold-h1-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-bold-h2-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-bold-h3-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-bold-body-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-body);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-normal-h1-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-h1);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-h2-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-h2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-h3-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-h3);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-body-white {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-body);
+    font-weight: 400;
+    font-style: normal;
+}

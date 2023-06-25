@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black-pearl);
+    position: relative;
+    min-width: 1440px;
+    width: 100vw;
+    height: 70px;
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.tftApplogo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 70px;
+}
+
+.searchbar-form {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: 49px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid var(--midnight-blue);
+}
+
+select {
+    height: 49px;
+    background-color: var(--midnight-blue);
+    border-radius: 10px;
+    min-width: 150px;
+    text-align: center;
+    border: none;
+}
+
+.summoner-search-form {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    align-items: center;
+}
+
+.summoner-search-input {
+    border-radius: 10%;
+    text-align: center;
+    background-color: var(--black-pearl);
+    height: 49px;
+    border: none;
+    width: 450px;
+    outline: none;
+    
+}
+
+.search-icon {
+    height: 49px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: var(--black-pearl);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 50px;
+}

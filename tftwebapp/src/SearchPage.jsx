@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import HeaderBar from './components/header/HeaderBar';
 
 function SearchPage() {
     const [summonerName, setSummonerName] = useState('');
@@ -12,7 +13,8 @@ function SearchPage() {
     };
 
     return (
-        <div> 
+        <div>
+            <HeaderBar></HeaderBar> 
             <h1>Search Page</h1>
             <form onSubmit={handleSubmit}>
                 <input
