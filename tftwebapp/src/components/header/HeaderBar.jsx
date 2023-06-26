@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../../styles/header/HeaderBar.css';
+import '../../styles/components/header/HeaderBar.css';
 import tftLogo from '../../assets/images/icons/tftlogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
