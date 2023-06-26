@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--black-pearl);
+    background-color: var(--black-blue);
     position: relative;
     min-width: 1440px;
     width: 100vw;
@@ -41,13 +41,12 @@
     height: 49px;
     gap: 10px;
     border-radius: 10px;
-    border: 3px solid var(--midnight-blue);
+    border: 3px solid var(--mirage);
 }
 
 select {
-    height: 49px;
-    background-color: var(--midnight-blue);
-    border-radius: 10px;
+    height: 50px;
+    background-color: var(--mirage);
     min-width: 150px;
     text-align: center;
     border: none;
@@ -63,8 +62,8 @@ select {
 .summoner-search-input {
     border-radius: 10%;
     text-align: center;
-    background-color: var(--black-pearl);
-    height: 49px;
+    background-color: var(--black-blue);
+    height: 44px;
     border: none;
     width: 450px;
     outline: none;
@@ -75,7 +74,7 @@ select {
     height: 49px;
     width: 100px;
     border-radius: 10%;
-    background-color: var(--black-pearl);
+    background-color: var(--black-blue);
     border: none;
     color: white;
     cursor: pointer;

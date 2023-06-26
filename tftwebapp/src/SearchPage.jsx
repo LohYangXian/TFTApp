@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import HeaderBar from './components/header/HeaderBar';
+import Navbar from './components/header/Navbar';
+import './styles/SearchPage.css';
 
 function SearchPage() {
     const [summonerName, setSummonerName] = useState('');
@@ -13,8 +15,9 @@ function SearchPage() {
     };
 
     return (
-        <div>
+        <div className='searchPage'>
             <HeaderBar></HeaderBar> 
+            <Navbar></Navbar>
             <h1>Search Page</h1>
             <form onSubmit={handleSubmit}>
                 <input

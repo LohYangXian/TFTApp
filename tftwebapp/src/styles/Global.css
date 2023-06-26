@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700');
 
 :root {
+
+    /* Main Color Palette */
+    --black-blue:#151e24;
+    --mirage: #1E2C34;
+    --venice-blue:#086180;
+    --blue-chill:#1486A5;
+    --roti:#C7AA4D;
+    /* Main Color Palette */
+
     --black-pearl: #142433;
     --midnight-blue: #003366;
     --white: #ffff;
