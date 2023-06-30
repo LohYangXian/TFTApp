@@ -8,7 +8,7 @@ import '../styles/pages/LandingPage.css';
 function LandingPage() {
 
     return (
-        <div className='searchPage'>
+        <div className='landingPage'>
             <HeaderBar></HeaderBar> 
             <Navbar></Navbar>
             <LandingBody></LandingBody>

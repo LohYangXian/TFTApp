@@ -18,7 +18,8 @@ function Navbar() {
                     <Link to="/items">Items</Link>
                 </li>
                 <li className="nav-item inter-bold-h3-white">
-                    <Link to="/profile">Profile Page</Link>
+                    {/* Still in development */}
+                    <Link to="/profile/LAWLSOEVER">Profile Page</Link>
                 </li>
             </ul>
         </nav>

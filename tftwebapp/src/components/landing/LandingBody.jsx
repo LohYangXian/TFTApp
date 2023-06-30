@@ -11,20 +11,25 @@ function LandingBody() {
         <body>
             <div className="frame1">
                 <img className="rengarImage" src={rengarImage} alt="Rengar" />
-                <div>
-                    {/* Insert Body Text */}
+                <div className="frame1-text">
+                    <span className="inter-bold-h1-white">
+                    </span>
+                    <span className="inter-bold-h2-white">
+                    </span>
                 </div>
             </div>
             <div className="frame2">
                 <div>
-                    {/* Insert Body Text */}
+                    <span className="frame2-text inter-bold-h1-white">
+                    </span>
                 </div>
                 <img className="yasuoImage" src={yasuoImage} alt="Yasuo" />
             </div>
             <div className="frame3">
                 <img className="ezrealImage" src={ezrealImage} alt="Ezreal" />  
                 <div>
-                    {/* Insert Body Text */}
+                    <span className="frame3-text inter-bold-h1-white">
+                    </span>
                 </div>
             </div>
         </body>

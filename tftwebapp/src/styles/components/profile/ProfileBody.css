@@ -1,0 +1,16 @@
+.profileBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-line {
+    border-left: 1px solid var(--blue-body3);
+    /* height: 80%; */
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+}
