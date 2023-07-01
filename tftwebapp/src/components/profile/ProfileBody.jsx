@@ -1,4 +1,5 @@
 import React from "react";
+import RankStatsTable from "./RankStatsTable";
 import '../../styles/components/profile/ProfileBody.css';
 
 function ProfileBody() {
@@ -6,8 +7,7 @@ function ProfileBody() {
     return (
         <div className="profileBody">
             <div className="profileDetails">
-                PlaceHolder
-                {/* Rank Component */}
+                <RankStatsTable></RankStatsTable>
             </div>
             <div className="vertical-line"></div>
             <div className="frame1">

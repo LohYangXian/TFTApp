@@ -1,0 +1,87 @@
+.rankStatsTable {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    gap: 10px;
+    align-items: center;
+}
+
+.rankAndName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.rankIcon {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 250px;
+    padding: 5px;
+}
+
+.nameAndRegion {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.region {
+    background-color: var(--mirage);
+    color:slategray;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.rank {
+    font-weight: 700;
+    color:slategray;
+}
+
+th {
+    min-width: 100px;
+    text-align: left;
+  }
+
+td {
+    min-width: 150px;
+    text-align: right;
+  }
+
+.profile-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.profile-stats-table {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid var(--mirage);
+}
+
+.progress-bar {
+    width: 100px;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #00c9a7;
+} 

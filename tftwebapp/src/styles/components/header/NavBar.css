@@ -1,6 +1,8 @@
 .navbar {
     background-color: var(--mirage);
     height: 60px;
+    min-width: 1440px;
+    width: 100vw;
 }
 
 .nav-menu {
